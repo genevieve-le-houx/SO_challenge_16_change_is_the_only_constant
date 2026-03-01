@@ -7,7 +7,7 @@ https://stackoverflow.com/beta/challenges/79888254/challenge-16-change-is-the-on
 The goal is to find the smallest number of coins needed to reach a given total, given a set of available coins.
 
 For example, with a set of ten 1, two 5 and one 10, 
-the smallest number of coins to reach 23 is with one 10, two 5 and three 1. (10*1 + 5*2 + 1*3 = 23)  .
+the smallest number of coins to reach 23 is with one 10, two 5 and three 1.
 So the answer would be 6, because 6 coins are needed. 
 
 The data is in the file ``Challenge16.txt``. There are 100 sets.
@@ -16,7 +16,7 @@ Each set have three parts:
 - A list of the quantity of each coin
 - The target to reach
 
-The answer is the number of coins needed for each set to reach the target
+The answer is the number of coins needed from each set to reach the target
 
 # Approach
 We build a list of coins combination possibilities. At the end, we choose the possibility with the smallest number of coins needed.
